@@ -1,9 +1,12 @@
-const input = document.getElementById("button")
+
 
 function addingEventListener() {
-alert ("i was clicked")
+    const input = document.getElementById("button")
+input.addEventListener("click",function(){    
+    alert("meow meow cat nip")
+})
+
 }
-input.addEventListener("click",addingEventListener)
 incomplete
 
 
